@@ -1,2 +1,2 @@
 # BikeCraft 🚲💻
- Projeto focado em desenvolvimento Front-end 🚀🎨
+ Projeto de estudo focado em desenvolvimento Front-end 🚀🎨
