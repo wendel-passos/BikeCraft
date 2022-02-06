@@ -1,3 +1,198 @@
+/* Estilos Gerais */
+
 body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn{
+  padding: 10px 20px;
+  background:#343142;
+  color: white;
+  text-transform: uppercase ;
+  font-weight: bold;
+  margin-top: 100px;
+  letter-spacing: .1em;
+}
+.btn:hover{
+  border: 3px solid #343142;
+  padding: 10px 20px;
+  background:#1C9CC1;
+  color: white;
+  text-transform: uppercase ;
+  font-weight: bold;
+  margin-top: 100px;
+  letter-spacing: .1em;
+}
+.subtitulo{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center; 
+}
+
+.subtitulo::after{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px ;
   background: black;
+  margin: 10px auto ;
+  margin-bottom: 30px;
+  }
+
+
+
+/*Header*/
+
+.header img:hover{
+  background: whitesmoke;
+}
+
+.header{
+  width: 100%;
+  background:#1C9CC1 ;
+  padding: 12.1px;
+  /* Se deixar o header fixo é necessário acrescentar uma margem top de 90px na introdução
+  position: fixed;
+  z-index:10;
+  */
+  top: 0;
+  
+}
+
+.header_menu{
+  text-align: right;
+}
+
+/*seleciona o último nível, nessa caso é a LI */
+.header_menu ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header_menu ul li{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header_menu ul li a{
+  color:#343142;
+  font-weight:800;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover{
+  color: white;
+  font-size: 15px;
+}
+
+/* Introdução */
+.introducao{
+  width: 100%;
+  background: url("../img/bg/bg-Intro.jpg") no-repeat center;
+  background-color: cover;
+  height: 380px;
+  padding-top: 76px ;
+  text-align: center;
+}
+
+.introducao h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quote-externo{
+  max-width: 320px;
+  margin: 0 auto ;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.quote-externo p{
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.quote-externo p::before,.quote-externo p::after{
+content: "";
+display: block;
+width: 40px;
+height: 3px ;
+background: white;
+margin: 10px  auto ;
+}
+
+.quote-externo cite{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px ;
+  letter-spacing:.1em ;
+}
+
+/*Produtos*/
+
+.produtos{
+  padding: 60px 0;
+}
+
+.produtos-lista li{
+  background: #1C9CC1;
+  text-align: center;
+}
+.produtos-lista li h3{
+  font-weight: bold;
+  font-size:14px;
+  line-height:25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 20px auto;
+}
+.produtos-lista li h3::after{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px ;
+  background: black;
+  margin: 2px  auto ;
+  }
+  .produtos-lista li p{
+    padding: 10px 20px 20px 20px; 
+  }
+.produtos-icone{
+  background:#343142;
+  padding: 20px 10px;
+}
+.call{
+  text-align: center;
+  clear: both;
+  padding: 40px;
+}
+
+.call p{
+margin-bottom: 40px;
+}
+
+/*Portfólio*/
+.portfolio {
+  width: 100%;
+  background:#343142;
+  padding: 40px 0;
 }
