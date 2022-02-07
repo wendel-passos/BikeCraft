@@ -9,7 +9,11 @@ p{
   font-size: 14px;
   line-height: 20px;
 }
-
+/*
+img{
+  display: block;
+}
+*/
 .btn{
   padding: 10px 20px;
   background:#343142;
@@ -18,6 +22,7 @@ p{
   font-weight: bold;
   margin-top: 100px;
   letter-spacing: .1em;
+  border: 3px solid white;
 }
 .btn:hover{
   border: 3px solid #343142;
@@ -39,7 +44,7 @@ p{
   text-align: center; 
 }
 
-.subtitulo::after{
+.subtitulo:after{
   content: "";
   display: block;
   width: 40px;
@@ -165,7 +170,7 @@ margin: 10px  auto ;
   letter-spacing: .1em;
   margin: 20px auto;
 }
-.produtos-lista li h3::after{
+.produtos-lista li h3:after{
   content: "";
   display: block;
   width: 40px;
@@ -195,4 +200,136 @@ margin-bottom: 40px;
   width: 100%;
   background:#343142;
   padding: 40px 0;
+  margin-bottom: 40px;
 }
+
+.portfolio .subtitulo {
+color: white;
+}
+
+.portfolio .subtitulo:after {
+  background: white;
+  }
+
+  .portfolio-lista li:last-child{
+    margin-top: 20px;
+  }
+
+  .portfolio p{
+    color: white;
+
+  }
+
+/*Qualidade*/
+.qualidade.{
+    margin: 40px 0;
+}
+.qualidade img {
+  margin: 0 auto;
+}
+.qualidade img{
+  display: block;
+}
+.qualidade-lista li{
+  text-align: center;
+  padding: 0 40px;
+}
+.qualidade-lista li h3{
+  font-weight: bold;
+  font-size:14px;
+  line-height:25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 10px auto;
+}
+.qualidade-lista li:nth-child(3) h3::after{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px ;
+  background: black;
+  margin: 2px  98px  ;
+  }
+  .qualidade-lista li:nth-child(2) h3::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px ;
+    background: black;
+    margin: 2px  90px  ;
+    }
+    .qualidade-lista li:nth-child(1) h3::after{
+      content: "";
+      display: block;
+      width: 40px;
+      height: 3px ;
+      background: black;
+      margin: 2px  80px  ;
+      }
+  .qualidade-lista li p{
+    padding: 10px 20px 20px 20px; 
+  }
+
+  /*quebra*/
+  .quebra{
+    background: url('../img/bg/bgColt.jpg') no-repeat center;
+    height: 120px;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .quebra cite{
+  text-transform: uppercase;
+  }
+
+  /*footer*/
+  .footer{
+    width: 100%;
+    height: 95px;
+    background: #343142;
+    padding: 10px 0;
+  }
+.footer h3{
+  font-size: 14px;
+  color: white;
+  line-height: 25px;
+  font-weight: bold;
+}
+.footer h3::after{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px ;
+  background: white;
+  margin: 2px  auto;
+}
+
+footer ul li{
+display: inline-block;
+}
+footer ul{
+  padding: 10px 0;
+}
+
+
+footer a{
+  display: block;
+  position: relative;
+  right: -403px;
+  padding: 2px 5px;
+  border: 3px solid #343142;
+}
+
+footer a:hover{
+  display: block;
+  border: 3px solid white;
+}
+
+.copy{
+  width:100%;
+  background:#1C9CC1 ;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
