@@ -1,0 +1,80 @@
+.interna-produtos{
+  background: url("../img/bg/bgProdutos.jpg") no-repeat;
+  background-size: cover;
+}
+.produtos-item{
+  padding-top: 40px;
+}
+.produto-icone{
+  background:#343142;
+  padding: 68px 0;
+  text-align: center;
+}
+.produtos-item h2{
+  font-size:36px ;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  color: white;
+  margin-bottom: -50px;
+}
+
+.produtos-item h2:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px ;
+  background: white;
+  margin: 5px auto ;
+}
+
+.produtos-item h2::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px ;
+  background: white;
+  margin: 5px auto ;
+}
+.produtos-info{
+  background:#343142;
+  margin-bottom: 20px;
+}
+.produtos-info p{
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 30px 40px;
+  height: 190px;
+}
+.produtos-info ul li{
+background:#1C9CC1;
+float: left;
+text-transform: uppercase;
+line-height: 25px;
+width: 229px;
+height: 49px;
+text-align: center;
+padding-top: 10px;
+font-weight: bold;
+}
+/*odd seleciona os filhos impares e o even os pares*/
+.produtos-info ul li:nth-child(even){
+  float: left;
+  text-transform: uppercase;
+  line-height: 25px;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  margin-left: 2px;
+  }
+  .produtos-info ul li:nth-child(1){
+    margin-bottom: 2px;
+  }
+  .produtos-info ul li:nth-child(2){
+    margin-bottom: 2px;
+  }
+  
