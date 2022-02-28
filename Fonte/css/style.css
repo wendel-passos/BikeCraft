@@ -1,11 +1,11 @@
 /* Estilos Gerais */
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -14,116 +14,113 @@ img{
   display: block;
 }
 */
-.btn{
+.btn {
   padding: 10px 20px;
-  background:#343142;
+  background: #343142;
   color: white;
-  text-transform: uppercase ;
+  text-transform: uppercase;
   font-weight: bold;
   margin-top: 100px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   border: 3px solid white;
 }
-.btn:hover{
+.btn:hover {
   border: 3px solid #343142;
   padding: 10px 20px;
-  background:#1C9CC1;
+  background: #1c9cc1;
   color: white;
-  text-transform: uppercase ;
+  text-transform: uppercase;
   font-weight: bold;
   margin-top: 100px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
-.subtitulo{
+.subtitulo {
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   color: black;
   text-transform: uppercase;
-  text-align: center; 
+  text-align: center;
 }
 
-.subtitulo:after{
+.subtitulo:after {
   content: "";
   display: block;
   width: 40px;
-  height: 3px ;
+  height: 3px;
   background: black;
-  margin: 10px auto ;
+  margin: 10px auto;
   margin-bottom: 30px;
-  }
-
-
+}
 
 /*Header*/
 
-.header img:hover{
+.header img:hover {
   background: whitesmoke;
 }
 
-.header{
+.header {
   width: 100%;
-  background:#1C9CC1 ;
+  background: #1c9cc1;
   padding: 12.1px;
   /* Se deixar o header fixo é necessário acrescentar uma margem top de 90px na introdução
   position: fixed;
   z-index:10;
   */
   top: 0;
-  
 }
 
-.header_menu{
+.header_menu {
   text-align: right;
 }
 
 /*seleciona o último nível, nessa caso é a LI */
-.header_menu ul li{
+.header_menu ul li {
   display: inline-block;
   margin-left: 20px;
 }
 
-.header_menu ul li{
+.header_menu ul li {
   display: inline-block;
   margin-left: 25px;
   margin-top: 20px;
 }
 
-.header_menu ul li a{
-  color:#343142;
-  font-weight:800;
+.header_menu ul li a {
+  color: #343142;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-size: 15px;
   line-height: 20px;
   padding: 10px 0;
 }
 
-.header_menu ul li a:hover{
+.header_menu ul li a:hover {
   color: white;
   font-size: 15px;
 }
 
-.header_menu ul li a.menu-ativo{
+.header_menu ul li a.menu-ativo {
   color: white;
 }
 
-a.logo-ativo img{
+a.logo-ativo img {
   background: white;
 }
 
 /* Introdução */
-.introducao{
+.introducao {
   width: 100%;
   background: url("../img/bg/bg-Intro.jpg") no-repeat center;
   background-size: cover;
   height: 380px;
-  padding-top: 76px ;
+  padding-top: 76px;
   text-align: center;
 }
 
-.introducao h1{
+.introducao h1 {
   font-size: 40px;
   text-align: center;
   color: white;
@@ -131,36 +128,37 @@ a.logo-ativo img{
   font-weight: bold;
 }
 
-.quote-externo{
+.quote-externo {
   max-width: 320px;
-  margin: 0 auto ;
+  margin: 0 auto;
   color: white;
   text-align: center;
   margin-bottom: 40px;
 }
 
-.quote-externo p{
+.quote-externo p {
   font-style: italic;
   margin-top: 20px;
 }
 
-.quote-externo p::before,.quote-externo p::after{
-content: "";
-display: block;
-width: 40px;
-height: 3px ;
-background: white;
-margin: 10px  auto ;
+.quote-externo p::before,
+.quote-externo p::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: white;
+  margin: 10px auto;
 }
-.quote-externo cite{
+.quote-externo cite {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px ;
-  letter-spacing:.1em ;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
 /*Introdução interna*/
 
-.introducao-interna{
+.introducao-interna {
   width: 100%;
   height: 160px;
   color: white;
@@ -168,7 +166,7 @@ margin: 10px  auto ;
   padding-top: 40px;
 }
 
-.introducao-interna h1{
+.introducao-interna h1 {
   font-size: 40px;
   text-align: center;
   color: white;
@@ -176,197 +174,190 @@ margin: 10px  auto ;
   font-weight: bold;
 }
 
-.introducao-interna h1:after{
+.introducao-interna h1:after {
   content: "";
   display: block;
   width: 40px;
-  height: 3px ;
+  height: 3px;
   background: white;
-  margin: 10px auto ;
+  margin: 10px auto;
   margin-bottom: 10px;
-  }
-
- 
+}
 
 /*Produtos*/
 
-.produtos{
+.produtos {
   padding: 60px 0;
 }
 
-.produtos-lista li{
-  background: #1C9CC1;
+.produtos-lista li {
+  background: #1c9cc1;
   text-align: center;
 }
-.produtos-lista li h3{
+.produtos-lista li h3 {
   font-weight: bold;
-  font-size:14px;
-  line-height:25px;
+  font-size: 14px;
+  line-height: 25px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   margin: 20px auto;
 }
-.produtos-lista li h3:after{
+.produtos-lista li h3:after {
   content: "";
   display: block;
   width: 40px;
-  height: 3px ;
+  height: 3px;
   background: black;
-  margin: 2px  auto ;
-  }
-  .produtos-lista li p{
-    padding: 10px 20px 20px 20px; 
-  }
-.produtos-icone{
-  background:#343142;
+  margin: 2px auto;
+}
+.produtos-lista li p {
+  padding: 10px 20px 20px 20px;
+}
+.produtos-icone {
+  background: #343142;
   padding: 20px 10px;
 }
-.call{
+.call {
   text-align: center;
   clear: both;
   padding: 40px;
 }
 
-.call p{
-margin-bottom: 40px;
+.call p {
+  margin-bottom: 40px;
 }
 
 /*Portfólio*/
 .portfolio {
   width: 100%;
-  background:#343142;
+  background: #343142;
   padding: 40px 0;
-  margin-bottom: 40px;
+  --margin-bottom: 40px;
 }
 
 .portfolio .subtitulo {
-color: white;
+  color: white;
 }
 
 .portfolio .subtitulo:after {
   background: white;
-  }
+}
 
-  .portfolio-lista li:last-child{
-    margin-top: 20px;
-  }
+.portfolio-lista li:last-child {
+  margin-top: 20px;
+}
 
-  .portfolio p{
-    color: white;
-
-  }
+.portfolio p {
+  color: white;
+}
 
 /*Qualidade*/
-.qualidade.{
-    margin: 40px 0;
+.qualidade. {
+  margin: 60px 0;
+}
+.qualidade h2 {
+  margin-top: 30px;
 }
 .qualidade img {
   margin: 0 auto;
 }
-.qualidade img{
+.qualidade img {
   display: block;
 }
-.qualidade-lista li{
+.qualidade-lista li {
   text-align: center;
   padding: 0 40px;
 }
-.qualidade-lista li h3{
+.qualidade-lista li h3 {
   font-weight: bold;
-  font-size:14px;
-  line-height:25px;
+  font-size: 14px;
+  line-height: 25px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   margin: 10px auto;
 }
-.qualidade-lista li:nth-child(3) h3::after{
+.qualidade-lista li:nth-child(3) h3::after {
   content: "";
   display: block;
   width: 40px;
-  height: 3px ;
+  height: 3px;
   background: black;
-  margin: 2px  98px  ;
-  }
-  .qualidade-lista li:nth-child(2) h3::after{
-    content: "";
-    display: block;
-    width: 40px;
-    height: 3px ;
-    background: black;
-    margin: 2px  90px  ;
-    }
-    .qualidade-lista li:nth-child(1) h3::after{
-      content: "";
-      display: block;
-      width: 40px;
-      height: 3px ;
-      background: black;
-      margin: 2px  80px  ;
-      }
-  .qualidade-lista li p{
-    padding: 10px 20px 20px 20px; 
-  }
-
-  /*quebra*/
-  .quebra{
-    background: url('../img/bg/bgColt.jpg') no-repeat center;
-    background-size: cover;
-    height: 120px;
-    padding-top: 10px;
-    width: 100%;
-  }
-  .quebra cite{
+  margin: 2px 98px;
+}
+.qualidade-lista li:nth-child(2) h3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: black;
+  margin: 2px 90px;
+}
+.qualidade-lista li:nth-child(1) h3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: black;
+  margin: 2px 80px;
+}
+.qualidade-lista li p {
+  padding: 10px 20px 20px 20px;
+}
+/*quebra*/
+.quebra {
+  background: url("../img/bg/bgColt.jpg") no-repeat center;
+  background-size: cover;
+  height: 120px;
+  padding-top: 10px;
+  width: 100%;
+}
+.quebra cite {
   text-transform: uppercase;
-  }
+}
 
-  /*footer*/
-  .footer{
-    width: 100%;
-    height: 95px;
-    background: #343142;
-    padding: 10px 0;
-  }
-.footer h3{
+/*footer*/
+.footer {
+  width: 100%;
+  height: 95px;
+  background: #343142;
+  padding: 10px 0;
+}
+.footer h3 {
   font-size: 14px;
   color: white;
   line-height: 25px;
   font-weight: bold;
 }
-.footer h3::after{
+.footer h3::after {
   content: "";
   display: block;
   width: 40px;
-  height: 3px ;
+  height: 3px;
   background: white;
-  margin: 2px  auto;
+  margin: 2px auto;
 }
-
-footer ul li{
-display: inline-block;
+footer ul li {
+  display: inline-block;
 }
-footer ul{
+footer ul {
   padding: 10px 0;
 }
-
-
-footer a{
+footer a {
   display: block;
   position: relative;
   right: -403px;
-  padding: 2px 5px;
+  padding: 3px 5px;
   border: 3px solid #343142;
 }
-
-footer a:hover{
+footer a:hover {
   display: block;
   border: 3px solid white;
+  padding: 3px 5px;
 }
-
-.copy{
-  width:100%;
-  background:#1C9CC1 ;
+.copy {
+  width: 100%;
+  background: #1c9cc1;
   color: white;
   text-align: center;
   padding: 10px 0;
 }
-
-

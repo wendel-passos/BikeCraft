@@ -1,12 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contato.css">
+  <title>BikeCraft - Contato</title>
 </head>
+
 <body>
-  
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4"><img src="img/icones/bikcraft.svg" alt="logo do site"></a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html class=" menu-ativo"">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Seção de Inntrodução -->
+  <section class="introducao-interna interna-contato">
+    <div class="container">
+      <h1>Contato</h1>
+      <p>Para mais informações entrem em contato com a gente</p>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="contato">
+    <div class="container">
+      <form id="form-orcamento" action="" class="form grid-8">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome">
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+        <label for="telefone">Telefone</label>
+        <input type="phone" id="telefone">
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="espec"></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+      <div class="orcamento-contato grid-8">
+        <p>Endereço: Rua dos Alfeneiros 1</p>
+        <p>Bairro: Logo ali</p>
+        <p>Cidade: Hogwarts</p>
+        <h3>Nossas redes sociais</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/" target="_blanck"><img src="./img/redesSociais/facebook.svg" alt=""></a></li>
+          <li><a href="https://twitter.com/" target="_blanck"><img src="./img/redesSociais/twitter.svg" alt=""></a></li>
+          <li><a href="https://www.instagram.com/" target="_blanck"><img src="./img/redesSociais/instagram.svg" alt="logo-isntagram"></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Maps -->
+  <section class="maps">
+    <div class="container">
+      <h3>Venha até a gente</h3>
+      <iframe class="grid-16" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.825566719479!2d-77.12444138528977!3d38.90510405409617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b5c888ee8785%3A0x597b869ee35de385!2sBike%20Trail%2C%20Arlington%2C%20VA%2022207%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1646088023942!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Seção Quebra -->
+  <section class="quebra">
+    <blockquote class="quote-externo">
+      <p>"Pedale como se não houvesse o amanhã"</p>
+      <cite>Ciclista Anônimo</cite>
+    </blockquote>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <h3 class="subtitulo">Redes Sociais</h3>
+        <ul class="grid-16">
+          <li><a href="https://www.facebook.com/" target="_blank"><img src="img/redesSociais/facebook.svg" alt=""></a></li>
+          <li><a href="https://twitter.com/" target="_blank"><img src="img/redesSociais/twitter.svg" alt=""></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><img src="img/redesSociais/instagram.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">copyright - WPassos 2021</p>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
