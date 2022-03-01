@@ -10,7 +10,7 @@ p {
   line-height: 20px;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -339,7 +339,6 @@ a.logo-ativo img {
   background: white;
   margin: 2px auto;
 }
-
 
 footer ul li {
   display: inline-block;

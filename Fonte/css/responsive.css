@@ -110,12 +110,8 @@
   }
   /*Introcucao*/
   .introducao {
-    width: 100%;
-    background: url("../img/bg/bg-Intro.jpg") no-repeat center;
-    background-size: cover;
     height: 260px;
     padding-top: 30px;
-    text-align: center;
   }
   .introducao h1 {
     font-size: 22px;
