@@ -113,7 +113,7 @@ a.logo-ativo img {
 /* Introdução */
 .introducao {
   width: 100%;
-  background: url("../img/bg/bg-Intro.jpg") no-repeat;
+  background: url("/Fonte/img/bg/bg-Intro.jpg") no-repeat;
   background-size: cover;
   height: 380px;
   padding-top: 76px;
