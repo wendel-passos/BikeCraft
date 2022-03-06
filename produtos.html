@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="Fonte/css/style.css">
   <link rel="stylesheet" href="Fonte/css/produtos.css">
   <link rel="stylesheet" href="Fonte/css/responsive.css">
+  <script> document.documentElement.classList.add("js") </script>
   <title>BikeCraft - Produtos</title>
 </head>
 
@@ -30,14 +31,14 @@
     </div>
   </header>
   <!-- Seção de Inntrodução -->
-  <section class="introducao-interna interna-produtos">
-    <div class="container">
+  <section class="introducao-interna interna-produtos" >
+    <div class="container" data-anime='500'>
       <h1>Produtos</h1>
-      <p>Conheça mais os nossos produtos</p>
+      <p data-anime='700'>Conheça mais os nossos produtos</p>
     </div>
   </section>
   <!-- Seção de produtos-->
-  <section class="container produtos-item">
+  <section class="container produtos-item" data-anime='1000'>
     <div class="grid-11">
       <img src="Fonte/img/produtos/produtoPasseioModelo.jpg" alt="BikeCraft Passeio">
       <h2>Passeio</h2>
@@ -147,6 +148,9 @@
       </div>
     </div>
   </footer>
+  <script src="Fonte/js/simple-slide.js"></script>
+  <script src="Fonte/js/simple-anime.js"></script>
+  <script src="Fonte/js/script.js"></script>
 </body>
 
 </html>
