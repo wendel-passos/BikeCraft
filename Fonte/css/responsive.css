@@ -62,6 +62,30 @@
     margin-top: 5px;
     font-size: 18px;
   }
+  .qualidade li:nth-child(1) h3:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: black;
+    margin: 2px auto;
+  }
+  .qualidade li:nth-child(2) h3:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: black;
+    margin: 2px auto;
+  }
+  .qualidade li:nth-child(3) h3:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: black;
+    margin: 2px auto;
+  }
   .btn {
     padding: 8px 15px;
     background: #343142;
