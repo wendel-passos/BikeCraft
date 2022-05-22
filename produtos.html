@@ -101,15 +101,19 @@
   <section class="orcamento">
     <div class="container">
       <h2 class="subtitulo">Orçamento</h2>
-      <form id="form-orcamento" action="" class="form grid-8">
+      <form id="form-orcamento" method="post" action="./enviar.php" class="form grid-8 formphp">
         <label for="nome">Nome</label>
-        <input type="text" id="nome">
+        <input type="text" id="nome" name="nome" required>
         <label for="email">E-mail</label>
-        <input type="email" id="email">
+        <input type="email" id="email" name="email" required>
         <label for="telefone">Telefone</label>
-        <input type="phone" id="telefone">
-        <label for="mensagem">Especificações</label>
-        <textarea name="" id="espec"></textarea>
+        <input type="phone" id="telefone" name="telefone" required>
+        <label class="nao-aparece">Somente se você não é um robô</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece">Somente se você não é um robô</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+        <label for="mensagem">Mensagem</label>
+        <textarea  id="mensagem" name="mensagem" required></textarea>
         <button type="submit" class="btn">Enviar</button>
       </form>
       <div class="orcamento-dados grid-8">
@@ -150,6 +154,7 @@
   </footer>
   <script src="Fonte/js/simple-slide.js"></script>
   <script src="Fonte/js/simple-anime.js"></script>
+  <script src="Fonte/js/simple-form.js"></script>
   <script src="Fonte/js/script.js"></script>
 </body>
 
